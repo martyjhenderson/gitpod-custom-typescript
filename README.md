@@ -8,6 +8,8 @@ Currently, those are:
   * Typescript 4.4.4
   * AWS CDK 2.1.0
 
+It also includes my public gpg key (for marty@nalth.is) mostly for fun.
+
 # But, why?
 
 This is a demo for my blog on https://nalth.is

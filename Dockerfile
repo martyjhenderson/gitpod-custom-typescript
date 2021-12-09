@@ -22,3 +22,7 @@ RUN curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh |
     && bash -c ". .nvm/nvm.sh \ 
     && nvm use $NODE_VERSION \
     && npm i -g aws-cdk@$CDK_VERSION"
+
+# Make node accessible from path
+
+ENV PATH=$PATH:/home/gitpod/.nvm/versions/node/v${NODE_VERSION}/bin
